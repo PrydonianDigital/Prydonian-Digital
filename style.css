@@ -27,6 +27,9 @@ body {
 	padding: 0;
 	font-family: "Lato", "helvetica neue", Helvetica, sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
 header {
 	background: #8C1717;
 	color: #FFD700;
@@ -81,8 +84,6 @@ footer p:last-child {
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	margin-top: 3.4em;
-	margin-bottom: 3.4em;
 }
 .container:before,
 .container:after {
@@ -149,8 +150,20 @@ footer p:last-child {
 .column-1 {
   width: 8.333333333333332%;
 }
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	display: inline-block;
+	padding: 5px 7px;
+	list-style: none;
+}
 @media (max-width: 768px) {
 	.hide-for-small {
 		display: none;
+	}
+	footer {
+		font-size: 0.4em;
 	}
 }
