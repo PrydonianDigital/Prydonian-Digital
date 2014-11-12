@@ -1,0 +1,153 @@
+/*	
+Theme Name: Prydonian Digital
+Theme URI: http://www.prydonian.digital
+Description: Theme for Prydonian
+Version: 1
+Author: Mark Duwe
+Author URI: http://www.prydonian.digital
+Tags: 
+License: Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License
+License URI: http://creativecommons.org/licenses/by-nc-nd/3.0/deed.en_US
+*/
+html,
+body {
+		font-size: 100%;
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", "helvetica neue", Helvetica, sans-serif;
+}
+header {
+	background: #8C1717;
+	color: #FFD700;
+	display: block;
+	overflow: hidden;
+	padding: 1em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+header h1 {
+	font-family: "Montserrat", "helvetica neue", Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased !important;
+	line-height: 1;
+}
+header h1 a {
+	color: #FFD700;
+	text-decoration: none;
+}
+footer {
+	background: #8C1717;
+	color: #FFD700;
+	display: block;
+	overflow: hidden;
+	padding: 1em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	font-size: 0.6em;
+	text-align: center;
+	z-index: 90;
+}
+footer p {
+	margin: 0 0 0.5em 0;
+}
+footer p:last-child {
+	margin: 0;
+}
+.container {
+	width: 100%;
+	max-width: 1120px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 3.4em;
+	margin-bottom: 3.4em;
+}
+.container:before,
+.container:after {
+	content: " ";
+	display: table;
+}
+.container:after {
+	clear: both;
+}
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+.row:after {
+	clear: both;
+}
+.grid {
+	width: 100%;
+	max-width: 1120px;
+	
+}
+.column-12 {
+	width: 100%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.column-11 {
+  width: 91.66666666666666%;
+}
+.column-10 {
+  width: 83.33333333333334%;
+}
+.column-9 {
+  width: 75%;
+}
+.column-8 {
+  width: 66.66666666666666%;
+}
+.column-7 {
+  width: 58.333333333333336%;
+}
+.column-6 {
+  width: 50%;
+}
+.column-5 {
+  width: 41.66666666666667%;
+}
+.column-4 {
+  width: 33.33333333333333%;
+}
+.column-3 {
+  width: 25%;
+}
+.column-2 {
+  width: 16.666666666666664%;
+}
+.column-1 {
+  width: 8.333333333333332%;
+}
+@media (max-width: 768px) {
+	.hide-for-small {
+		display: none;
+	}
+}
