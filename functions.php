@@ -1,5 +1,6 @@
 <?php
 	
+// Register Styles	
 function pd_css() {
 	wp_register_style( 'normalize', get_template_directory_uri() . '/css/normalize.css', false, '3.0.1' );
 	wp_register_style( 'fonts', 'http://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat', false, '1.2' );
@@ -9,6 +10,15 @@ function pd_css() {
 // Hook into the 'wp_enqueue_scripts' action
 add_action( 'wp_enqueue_scripts', 'pd_css' );
 
+// Register Script
+function pd_scripts() {
+	wp_register_script( 'modernizr', '/js/modernizr.js', false, '2.8.3', false );
+	wp_enqueue_script( 'modernizr' );
+}
+// Hook into the 'wp_enqueue_scripts' action
+add_action( 'wp_enqueue_scripts', 'pd_scripts' );
+
+// Register Theme Features
 function pd_init()  {
 	remove_action( 'wp_head', 'wp_generator' );
 	show_admin_bar( false );
