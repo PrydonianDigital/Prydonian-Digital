@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'pd_css' );
 
 // Register Script
 function pd_scripts() {
-	wp_register_script( 'modernizr', '/js/modernizr.js', false, '2.8.3', false );
+	wp_register_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js', false, '2.8.3', false );
 	wp_enqueue_script( 'modernizr' );
 }
 // Hook into the 'wp_enqueue_scripts' action
