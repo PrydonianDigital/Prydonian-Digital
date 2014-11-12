@@ -39,6 +39,9 @@ header {
 	width: 100%;
 	z-index: 100;
 }
+a {
+	color: #8C1717;
+}
 header h1 {
 	font-family: "Montserrat", "helvetica neue", Helvetica, sans-serif;
 	font-size: 1.4em;
