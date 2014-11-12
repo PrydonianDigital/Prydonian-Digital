@@ -154,10 +154,64 @@ ul {
 	margin: 0;
 	padding: 0;
 }
-ul li {
+ul.label li {
 	display: inline-block;
 	padding: 5px 7px;
 	list-style: none;
+	padding: 0 10px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	height: 20px;
+	font-size: 12px;
+	font-size: 0.75rem;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	background: #8C1717;
+	color: #FFD700;
+	border: 1px solid #4a4d50;
+	margin-bottom: 4px;
+}
+input[type=text], input[type=email], textarea {
+	position: relative;
+	padding: 0 10px;
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	height: 36px;
+	line-height: 34px;
+	font-size: 16px;
+	font-size: 1rem;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+}
+.slide h2, .slide p {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#fp-nav.right {
+	right: -4px;
+}
+.fp-slidesNav.bottom {
+	bottom: 34px;
+}
+.fp-controlArrow.fp-prev {
+	left: 15px;
+	width: 0;
+	border-width: 38.5px 34px 38.5px 0;
+	border-color: transparent #8C1717 transparent transparent;
+}
+.fp-controlArrow.fp-next {
+	right: 15px;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent transparent transparent #8C1717;
 }
 @media (max-width: 768px) {
 	.hide-for-small {
@@ -165,5 +219,8 @@ ul li {
 	}
 	footer {
 		font-size: 0.4em;
+	}
+	#fp-nav.right {
+		right: -6px;
 	}
 }
