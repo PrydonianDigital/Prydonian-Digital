@@ -5,7 +5,7 @@ $(document).ready(function() {
 	    verticalCentered: true,
         resize : true,
         responsive: 0,
-        anchors: ['ComingSoon', 'Experience', 'Skills', 'Clients', 'More', 'Contact', 'Endorsements'],
+        anchors: ['ComingSoon', 'BookMe', 'Experience', 'Skills', 'Clients', 'More', 'Contact', 'Endorsements'],
         css3: true,
         navigation: true,
         easing: 'easeInQuart',
